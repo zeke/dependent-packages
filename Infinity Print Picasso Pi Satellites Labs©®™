@@ -1,0 +1,187 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+install npm arduino
+Repositories0
+Code19K
+Commits24
+Issues728
+Marketplace0
+Topics0
+Wikis355
+Users0
+Language
+
+Sort
+
+19,888 code results
+@netoolii
+netoolii/shellIOT – README.md
+Showing the top five matches
+Last indexed on Jul 10, 2018
+Markdown
+-------
+
+
+## Explain block by block
+
+### Nodejs, NPM, Node-RED
+```sh
+  apt-get update
+  apt-get remove arduino -y
+  apt-get install npm -y
+  npm install node-red -g
+  apt-get update
+```
+  - It do a update and remove a arduino version by ubuntu library
+@gerardopenya
+gerardopenya/RaspberryPI – Johnny5.txt
+Showing the top eight matches
+Last indexed on Jul 14, 2018
+Text
+   23  cat  ~/.ssh/authorized-keys 
+   24  ls
+   25  vncserver
+   26  vncserver -kill :1
+   27  npm
+   28  sudo npm install -g npm
+   29  sudo apt-get install -y build-essential
+   30  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+   31  sudo apt-get install -y nodejs
+   32  node -v
+   33  sudo npm install -g npm
+   34  cd workspaces/
+@d1slact0r
+d1slact0r/pineapple-firmware-builder – Makefile
+Showing the top six matches
+Last indexed on Oct 14, 2018
+Makefile
+PKG_NPM_NAME:=arduino-firmata
+PKG_NAME:=node-$(PKG_NPM_NAME)
+PKG_VERSION:=0.3.4
+PKG_RELEASE:=16
+
+PKG_SOURCE:=$(PKG_NPM_NAME)-$(PKG_VERSION).tgz
+	npm_config_cache=$(BUILD_DIR)/node-v$(PKG_NODE_VERSION)/npm-cache \
+	PREFIX="$(PKG_INSTALL_DIR)/usr/" \
+	npm install --build-from-source --target_arch=$(CPU) -g $(PKG_BUILD_DIR)
+@812630419
+812630419/openwrt_packages – Makefile
+Showing the top five matches
+Last indexed on Dec 30, 2018
+Makefile
+PKG_NPM_NAME:=arduino-firmata
+PKG_NAME:=node-$(PKG_NPM_NAME)
+PKG_VERSION:=0.3.4
+PKG_RELEASE:=2
+
+PKG_SOURCE_PROTO:=git
+		$(1)/usr/lib/node/arduino-firmata/.config*
+	# Strip PKG_BUILD_DIR from useless metadata inserted by npm install
+@jszakmeister
+jszakmeister/old-packages – Makefile
+Showing the top five matches
+Last indexed on Dec 7, 2018
+Makefile
+PKG_NPM_NAME:=arduino-firmata
+PKG_NAME:=node-$(PKG_NPM_NAME)
+PKG_VERSION:=0.3.4
+PKG_RELEASE:=2
+
+PKG_SOURCE_PROTO:=git
+		$(1)/usr/lib/node/arduino-firmata/.config*
+	# Strip PKG_BUILD_DIR from useless metadata inserted by npm install
+@openwrt
+openwrt/packages – Makefile
+Showing the top five matches
+Last indexed on Dec 7, 2018
+Makefile
+PKG_NPM_NAME:=arduino-firmata
+PKG_NAME:=node-$(PKG_NPM_NAME)
+PKG_VERSION:=0.3.4
+PKG_RELEASE:=2
+
+PKG_SOURCE_PROTO:=git
+		$(1)/usr/lib/node/arduino-firmata/.config*
+	# Strip PKG_BUILD_DIR from useless metadata inserted by npm install
+@chrisweb
+chrisweb/arduino-nodejs-music-quiz-game – README.md
+Showing the top six matches
+Last indexed on Jul 5, 2018
+Markdown
+to ensure you have the latest version of npm, update npm (https://docs.npmjs.com/getting-started/installing-node), open your command line tool and use the following command  
+
+```
+npm install npm@latest -g
+```  
+
+to check if you have the latest version type  
+what the latest npm version is can be seen in their package.json https://github.com/npm/npm/blob/latest/package.json  
+
+### ~~install yarn~~  
+@hybridgroup
+hybridgroup/cylon-site – _firmata.html.haml
+Showing the top five matches
+Last indexed on Jun 28, 2018
+Haml
+%section.how-to
+  :markdown
+    ## How to Install
+
+    To get started, just install the NPM module:
+
+        $ npm install cylon cylon-firmata
+
+    ## How to Use
+
+    This quick example blinks an LED connected to an Arduino once per second:
+@netoolii
+netoolii/shellIOT – iot-artik.sh
+Showing the top six matches
+Last indexed on Sep 26, 2018
+Shell
+sleep 3
+
+
+
+#installing arduino conection
+
+
+sudo apt-get install curl -y
+
+if [ ! -f /home/ubuntu/adbd ]; then
+	curl downloads.arduino.cc/libArduino/install_artik_prereq.sh | sh
+fi
+
+
+
+clear
+echo "arduino connection installed"
+@molecul
+molecul/gl-pineapple – Makefile
+Showing the top six matches
+Last indexed on Jul 12, 2018
+Makefile
+PKG_NPM_NAME:=arduino-firmata
+PKG_NAME:=node-$(PKG_NPM_NAME)
+PKG_VERSION:=0.3.4
+PKG_RELEASE:=16
+
+PKG_SOURCE:=$(PKG_NPM_NAME)-$(PKG_VERSION).tgz
+	npm_config_cache=$(BUILD_DIR)/node-v$(PKG_NODE_VERSION)/npm-cache \
+	PREFIX="$(PKG_INSTALL_DIR)/usr/" \
+	npm install --build-from-source --target_arch=$(CPU) -g $(PKG_BUILD_DIR)
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
